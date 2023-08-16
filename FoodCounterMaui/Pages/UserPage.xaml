@@ -3,7 +3,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodCounterMaui.Pages.UserPage"
-             Title="Настройки пользователя">
+             Title="Создание пользователя">
     <ScrollView>
         <StackLayout>
             <Label Text="Имя" />
