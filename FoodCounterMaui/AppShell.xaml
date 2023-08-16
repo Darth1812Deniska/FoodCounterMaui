@@ -9,11 +9,11 @@
 
     <TabBar>
         <ShellContent
-            Title="Home"
+            Title="Начальная страница"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
         <ShellContent
-            Title="Home"
+            Title="Пользователь"
             ContentTemplate="{DataTemplate local:Pages.UserPage}"
             Route="Pages.UserPage" />
     </TabBar>

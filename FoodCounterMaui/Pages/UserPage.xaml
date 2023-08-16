@@ -3,12 +3,22 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodCounterMaui.Pages.UserPage"
-             Title="NewPage1">
+             Title="Настройки пользователя">
     <ScrollView>
         <StackLayout>
-            <Label Text="" />
-            <Label Text="" />
-            <Label Text="" />
+            <Label Text="Имя" />
+            <Entry />
+            <Label Text="Пол" />
+            <RadioButton GroupName="gender" Content="М" />
+            <RadioButton GroupName="gender" Content="Ж" />
+            <Label Text="Дата рождения" />
+            <DatePicker />
+            <Label Text="Рост" />
+            <Entry Keyboard="Numeric"  />
+            <Stepper Minimum="0" Increment="0.1" />
+            <Label Text="Вес" />
+            <Entry Keyboard="Numeric" />
+            <Stepper Minimum="0" Increment="0.1" />
         </StackLayout>
     </ScrollView>
 </ContentPage>
