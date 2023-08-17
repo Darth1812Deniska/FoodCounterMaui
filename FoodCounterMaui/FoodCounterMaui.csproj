@@ -64,6 +64,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Maui" Version="5.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="Pages\UserPage.xaml.cs">
 	    <DependentUpon>UserPage.xaml</DependentUpon>
 	  </Compile>
@@ -73,19 +77,5 @@
 	  <MauiXaml Update="Pages\UserPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
-	  <PackageReference Include="CommunityToolkit.Maui" Version="5.3.0">
-	  </PackageReference>
-	</ItemGroup>
-
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
-	  <PackageReference Include="CommunityToolkit.Maui" Version="5.3.0">
-	  </PackageReference>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="CommunityToolkit.Maui" Version="5.3.0" />
 	</ItemGroup>
 </Project>
